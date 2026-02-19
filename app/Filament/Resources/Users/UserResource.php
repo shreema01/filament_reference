@@ -26,7 +26,7 @@ class UserResource extends Resource
     {
         
        return UserForm::configure($schema);
-       
+
     }
 
     public static function table(Table $table): Table
