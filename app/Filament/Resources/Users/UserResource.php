@@ -24,9 +24,7 @@ class UserResource extends Resource
 
     public static function form(Schema $schema): Schema
     {
-        
        return UserForm::configure($schema);
-
     }
 
     public static function table(Table $table): Table
