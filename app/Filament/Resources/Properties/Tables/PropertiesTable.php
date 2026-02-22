@@ -30,7 +30,6 @@ class PropertiesTable
                 ->dateTime()
                 ->sortable(),
 
-
             SpatieMediaLibraryImageColumn::make('gallery')
             ->collection('gallery')
             ->limit(3)
