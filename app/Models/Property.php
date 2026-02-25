@@ -8,6 +8,7 @@ use Spatie\MediaLibrary\HasMedia;
 
 class Property extends Model implements HasMedia
 {
+    
     use InteractsWithMedia;
     protected $fillable = [
     'title',
