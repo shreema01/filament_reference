@@ -10,6 +10,7 @@ class Property extends Model implements HasMedia
 {
     
     use InteractsWithMedia;
+    
     protected $fillable = [
     'title',
     'description',
