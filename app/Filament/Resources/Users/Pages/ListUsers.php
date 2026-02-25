@@ -13,7 +13,9 @@ class ListUsers extends ListRecords
     {
         
         return [
+            
             CreateAction::make(),
+            
         ];
     }
 }
