@@ -18,9 +18,11 @@ class UsersTable
                 TextColumn::make("name"),
                 TextColumn::make("email"),
             ])
+            
             ->filters([
                 //
             ])
+            
             ->recordActions([
                 EditAction::make(),
                 DeleteAction::make()
